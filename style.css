@@ -1,0 +1,79 @@
+.titulo{
+    text-align: center;
+    color: black;
+    margin-top: 10px ;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.7px;
+}
+body{
+    background-color: rgb(251, 240, 255) ;
+    font-family: Arial,Helvetca,sans-serif;
+    padding: 20px;
+   color: rgb(60, 25, 80);
+    
+}
+
+
+
+
+img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+
+}
+
+.sessao{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    justify-content: center;
+    
+}
+
+
+
+
+.produtos{
+
+    background-color: rgb(153, 43, 226);
+    border: 0.5px solid rgb(92, 0, 128);
+    border: radius 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+    gap: 10px;
+    width: 400px;
+    
+}
+
+
+
+
+h2{
+    color: rgb(250, 240, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 29px;
+
+}
+
+
+
+p{
+    color: rgb(250, 240, 255);
+    font-size: 20px;
+    font-weight: 600;
+
+}
+button{
+    width: 60%;
+    height: 40px;
+    border-radius: 10px;
+    border: nome;
+    background-color: rgb(249, 240, 255);
+    color: rgb(247, 240, 255);
+    cursor: pointer;
+}
